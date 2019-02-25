@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  *
  * @author alisha
  */
-@CrossOrigin(origins = "http://localhost:8080", maxAge = 3600)
+@CrossOrigin(origins = "*", maxAge = 3600)
 @Controller
 public class ResultController {
     
